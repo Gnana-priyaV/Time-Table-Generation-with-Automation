@@ -1,0 +1,48 @@
+/* 
+    Document   : tablecss
+    Created on : 27 Mar, 2023, 5:14:59 PM
+    Author     : HP
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    background-color: #006666;
+}
+.table1{
+    text-align: center; 
+    padding:100px 100px;
+    margin-top: 100px;
+}
+table{
+    border-radius:10px;
+    background-color: #FFFFFF;
+    padding:5px 5px;
+}
+table tr td{
+    
+    color:black;
+
+}
+table tr td A{
+    text-decoration: none;
+    text-align: center; 
+
+}
+table tr th{
+    font-size:25px;
+}
+
+table tr td:hover,table tr td A:hover{
+    border-radius:10px;
+    background-color: #606060;
+    color:white;
+}
+
+.th{
+    width:30%;
+}

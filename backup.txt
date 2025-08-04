@@ -1,0 +1,17 @@
+function doGet(e) {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Sheet1");
+  
+  var lat = e.parameter.lat;
+  var lon = e.parameter.lon;
+  var timestamp = new Date();
+  
+  // Always update row 2
+  sheet.getRange(2, 1).setValue(timestamp); // Column A = Timestamp
+  sheet.getRange(2, 2).setValue(lat);       // Column B = Latitude
+  sheet.getRange(2, 3).setValue(lon);       // Column C = Longitude
+
+  // Optional: format column A to show time with seconds
+  sheet.getRange("A2:A").setNumberFormat("yyyy-MM-dd HH:mm:ss");
+
+  return ContentService.createTextOutput("Updated row 2 with latest GPS data.");
+}
