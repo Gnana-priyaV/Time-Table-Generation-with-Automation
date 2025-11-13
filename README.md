@@ -1,43 +1,47 @@
-
 # 📅 Time Table Generation System
 
 An automated time table generation system built to simplify and optimize the scheduling of classes, teachers, and classrooms.
 
 ---
 
-## 📌 Features
-
-- Automatically generates conflict-free timetables
-- Teacher and classroom availability checks
-- User-friendly interface
-- Admin panel for management
-- Supports multiple departments and semesters
-
+## 🚀 Features
+- ✅ Admin Dashboard
+- Add, view, and manage course, subject, and student details
+- Create and edit staff profiles, qualifications, and subject allocations
+- Generate and view exam and event timetables
+- Manage user authentication (Admin / Staff / User)
+- ✅ Staff Dashboard
+- Access personal profile and staff list
+- View assigned subjects, events, and time tables
+- Change password and manage personal info
+- ✅ User Dashboard (Students)
+- View class, exam, and event timetables
+- Access announcements and schedules
 ---
-
-## 🛠️ Technologies Used
-
-| Frontend       | Backend        | Database     | Others         |
-|----------------|----------------|--------------|----------------|
-| HTML, CSS, JS  | Java (J2EE) / JavaScript (based on your version) | MySQL  |
-
+## ⚙️ Hardware & Software Setup
+- 🧩 Software Requirements
+- MySQL
+- Web browser (Chrome)
+- Code editor (NetBeans)
 ---
-
 ## 🧑‍💻 How to Run the Project
 
 ### Option 1: Java Version (Swing + J2EE)
 
 ```bash
-git clone https://github.com/yourusername/time-table-generator.git
+git clone https://github.com/Gnana-priyaV/Time-Table-Generation-with-Automation/
 cd time-table-generator
 ```
 
-1. Open the project in **NetBeans / Eclipse**
+1. Open the project in **NetBeans **
 2. Set up MySQL:
    - Create a database
-   - Import the SQL dump (if provided)
+   - Import the SQL dump 
    - Update DB credentials in `DBConnection.java`
 3. Run the project
+---
+## 📷 Project Images
+![WhatsApp Image 2025-11-13 at 14 23 14](https://github.com/user-attachments/assets/802b818c-328e-4bfd-bbb7-3b8a43f88648)
 
 ### Option 2: Web Version (HTML + JS + MongoDB)
 
