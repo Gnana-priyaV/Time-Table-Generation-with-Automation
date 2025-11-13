@@ -42,6 +42,10 @@ cd time-table-generator
 ---
 ## 📷 Project Images
 ![WhatsApp Image 2025-11-13 at 14 23 14](https://github.com/user-attachments/assets/802b818c-328e-4bfd-bbb7-3b8a43f88648)
+![WhatsApp Image 2025-11-13 at 14 24 11](https://github.com/user-attachments/assets/acd0da05-69ed-48ca-b105-e266559ed929)
+![WhatsApp Image 2025-11-13 at 14 25 07](https://github.com/user-attachments/assets/4132c980-24bc-4791-bc98-d74f7154189d)
+![WhatsApp Image 2025-11-13 at 14 25 56](https://github.com/user-attachments/assets/3b49b637-6bbe-4618-8578-f48f9a27bafb)
+
 
 ### Option 2: Web Version (HTML + JS + MongoDB)
 
